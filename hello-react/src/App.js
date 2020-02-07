@@ -1,10 +1,14 @@
+// src/App.js
 import React, { Component } from 'react';
 
 class App extends Component {
   render() {
     return (
       <div>
-        <input type="text">
+        Hello
+      </div>
+      <div>
+        Bye
       </div>
     );
   }
