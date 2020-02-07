@@ -1,16 +1,16 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 
 class App extends Component {
   render() {
     return (
-      <div>
+      <Fragment>
         <div>
           Hello
         </div>
         <div>
           Bye
         </div>
-      </div>
+      </Fragment>
     );
   }
 }
