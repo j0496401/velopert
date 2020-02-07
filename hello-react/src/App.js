@@ -2,10 +2,15 @@ import React, { Component } from 'react';
 
 class App extends Component {
   render() {
+    const value = 1;
     return (
       <div>
         {
-          1 + 1 === 2 && (<div>맞아요!</div>)
+          (function() {
+            if (value === 1) return (<div>하나</div>);
+            if (value === 2) return (<div>둘</div>);
+            if (value === 3) return (<div>셋</div>);
+          })()
         }
       </div>
     );
