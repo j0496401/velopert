@@ -1,14 +1,15 @@
-// src/App.js
 import React, { Component } from 'react';
 
 class App extends Component {
   render() {
     return (
       <div>
-        Hello
-      </div>
-      <div>
-        Bye
+        <div>
+          Hello
+        </div>
+        <div>
+          Bye
+        </div>
       </div>
     );
   }
