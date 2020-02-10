@@ -11,11 +11,10 @@ class Counter extends Component {
     }
 
     handleIncrease() {
-        this.setState(
-            ({ number }) => ({
-                number: number + 1
-            })
-        );
+        const { number } = this.state;
+        this.setState({
+          number: number + 1
+        })
     }
 
     handleDecrease() {
