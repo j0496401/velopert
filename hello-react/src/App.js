@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import Counter from './Counter';
+import ScrollBox from "./ScrollBox";
 
 class App extends Component {
   render() {
     return (
-      <Counter />
+      <ScrollBox />
     );
   }
 }
