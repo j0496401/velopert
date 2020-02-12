@@ -11,7 +11,8 @@ const Problematic = () => {
 
 class Counter extends Component {
     state = {
-        number: 0
+        number: 0,
+        error: false
     }
 
     constructor(props) {
@@ -56,9 +57,17 @@ class Counter extends Component {
             })
         );
     }
+    
+    componentDidCatch(error, info) {
+        this.setState({
+            error: true
+        });
+    }
 
     render() {
         console.log('render');
+        if (this.state.error) return (<h1>에러발생</h1>);
+
         return (
             <div>
                 <h1>카운터</h1>
