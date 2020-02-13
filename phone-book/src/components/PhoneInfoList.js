@@ -9,7 +9,7 @@ class PhoneInfoList extends Component {
     render() {
         const { data } = this.props;
         const list = data.map(
-            info => (<PhoneInfo key={info.id} info={info}/>)
+            (info, index) => (<PhoneInfo key={index} info={info}/>)
         );
 
         return(
