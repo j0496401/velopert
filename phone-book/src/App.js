@@ -53,6 +53,9 @@ class App extends Component {
 
   render() {
     const { information, keyword } = this.state;
+    const filterList = information.filter(
+      info => info.name.indexOf(keyword) !== -1
+    );
 
     return (
       <div>
@@ -68,7 +71,7 @@ class App extends Component {
         </p>
         <hr />
         <PhoneInfoList
-          data={information}
+          data={filterList}
           onRemove={this.handleRemove}
           onUpdate={this.handleUpdate}
         />
