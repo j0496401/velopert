@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/velopert/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/velopert/static/js/main.c703be2a.chunk.js",
+    "main.js.map": "/velopert/static/js/main.c703be2a.chunk.js.map",
+    "runtime-main.js": "/velopert/static/js/runtime-main.182ae88a.js",
+    "runtime-main.js.map": "/velopert/static/js/runtime-main.182ae88a.js.map",
+    "static/js/2.46e80a36.chunk.js": "/velopert/static/js/2.46e80a36.chunk.js",
+    "static/js/2.46e80a36.chunk.js.map": "/velopert/static/js/2.46e80a36.chunk.js.map",
+    "index.html": "/velopert/index.html",
+    "precache-manifest.8c72edc6cd2e6b63553eabc810a70756.js": "/velopert/precache-manifest.8c72edc6cd2e6b63553eabc810a70756.js",
+    "service-worker.js": "/velopert/service-worker.js",
+    "static/css/main.5ecd60fb.chunk.css.map": "/velopert/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.46e80a36.chunk.js.LICENSE.txt": "/velopert/static/js/2.46e80a36.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.182ae88a.js",
+    "static/js/2.46e80a36.chunk.js",
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.c703be2a.chunk.js"
+  ]
+}
